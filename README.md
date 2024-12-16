@@ -28,7 +28,7 @@ Dependències:
 
 ## Enunciat
 
-Tenim una entitat anomenada "Fruita", que disposa de les següents propietats:
+Tenim una entitat anomenada "Fruit", que disposa de les següents propietats:
 
 - int id
 - String nom
@@ -36,11 +36,11 @@ Tenim una entitat anomenada "Fruita", que disposa de les següents propietats:
   
 Aprofitant l’especificació JPA, hauràs de persistir aquesta entitat a una base de dades MongoDB, seguint el patró MVC. Per a això, depenent del Package principal, crearàs una estructura de packages, on ubicaràs les classes que necessitis:
 
-- cat.itacademy.s04.t02.n01.controllers
-- cat.itacademy.s04.t02.n01.model
-- cat.itacademy.s04.t02.n01.services
-- cat.itacademy.s04.t02.n01.repository
-- cat.itacademy.s04.t02.n01.exception
+- cat.itacademy.s04.t02.n03.controllers
+- cat.itacademy.s04.t02.n03.model
+- cat.itacademy.s04.t02.n03.services
+- cat.itacademy.s04.t02.n03.repository
+- cat.itacademy.s04.t02.n03.exception
 
 La classe ubicada al paquet controllers (FruitController, per exemple), haurà de ser capaç de donar resposta a les següents peticions per actualitzar i consultar informació:
 
