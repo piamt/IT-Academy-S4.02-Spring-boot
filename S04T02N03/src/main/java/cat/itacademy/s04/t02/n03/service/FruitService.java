@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface FruitService {
 
-    List<Fruit> findAllFruits(); // TODO: Throws FruitAlreadyExistsException
+    List<Fruit> findAllFruits();
     Fruit saveFruit(Fruit fruit) throws FruitAlreadyExistsException;
     Fruit updateFruit(Integer id, Fruit fruit) throws FruitNotFoundException;
     void deleteFruit(Integer id);
